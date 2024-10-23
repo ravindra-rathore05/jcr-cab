@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -28,7 +31,6 @@
 .header-top>div:first-child a{
     color: white;
     margin: 0 5px;
-
 }
 .header-top>div:last-child{
 margin-right: 172px;
@@ -50,7 +52,6 @@ margin-right: 172px;
 }
     .header-main{
         display: flex;
-       
 }
     .header-main figure{
         width: 250px;
@@ -60,12 +61,10 @@ margin-right: 172px;
 
 }
     .header-main> nav{
-        padding-top:18px;
-    
+        padding-top:18px;  
 }
     .header-main> nav>ul{
-        display: flex;
-        
+        display: flex;     
 }
     .header-main>nav>ul>li>a{
         color: black;
@@ -74,18 +73,17 @@ margin-right: 172px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
 }
-    .banner-section{
-        background-image:url(images/jodhpur-1215239.jpg) ;
+    #banner-section{
         display: flex;
         justify-content: space-between;
         background-size: cover;
         align-items: center;
-        text-align: center;
-        padding: 200px 0 100px 0px;
+        padding: 250px 0 100px 0px;
         background-position:center -250px;
-
+       
 }
-    .banner-inner h2{
+
+    .banner-inner h2{ 
         color: white;
         font-size: 35px;
         
@@ -95,8 +93,9 @@ margin-right: 172px;
     color: white;
     padding: 30px 0;
     }
-     .banner-section>div:first-child,
-     .banner-section>div:last-child{
+    
+     #banner-section>div:first-child,
+     #banner-section>div:last-child{
         background-color: rgba(255, 255, 255, 0.2);
         padding: 10px;
         font-size: 55px;
@@ -105,14 +104,12 @@ margin-right: 172px;
      .banner-form{
         background-color: rgba(255, 255, 255, 0.2);
         padding: 10px;
-        
-
      }
      .banner-form>form> div:first-child {
         border-bottom: 1px solid white;
         text-align: left;
-     }
-     .banner-form>form> div:first-child button{
+     } 
+      .banner-form>form> div:first-child button{
         padding: 10px 20px;
         background-color: white;
         border-radius: 6px 6px 0 0;
@@ -122,11 +119,16 @@ margin-right: 172px;
         margin-right: 10px;
         color: grey;
 
+    } 
+    .banner-form>form> div:first-child button:hover{
+        background: #009ddc;
+        color: white;
     }
     .banner-form-active-button{
         background-color: #009ddc !important;
         color: white !important;
     }
+    
     .banner-form>form>div:last-child{
         display: flex;
         padding-top: 20px;
@@ -139,6 +141,7 @@ margin-right: 172px;
         color: grey;
         
     }
+    
     .banner-form>form>div:last-child button{
         background-color: #286090;
         color: white;
@@ -155,10 +158,12 @@ margin-right: 172px;
     .banner-form>form>div:last-child :nth-child(4){
         width: 17%    
     }
+    
    
-    .banner-form>form>div:last-child button{
+     .banner-form>form>div:last-child button{
         width: 9%;
-    }
+    } 
+    
     nav>ul>li{
         position: relative;
         
@@ -264,8 +269,6 @@ margin-right: 172px;
     .way_com:hover .way_taxi{
         opacity: 1;
         visibility: visible;
-
-
     }
     .way_taxi>li{
         border-bottom: 1px solid #009ddc;
@@ -289,7 +292,7 @@ margin-right: 172px;
         visibility: hidden;
         transition: 1s;
         top: 66px;
-        text-align: center;
+        
     }
     .sight_city>li{
         border-bottom: 1px solid #009ddc;
@@ -334,7 +337,7 @@ margin-right: 172px;
             
         }
         .left>button{
-            background-color: black;
+            background-color: #28292E;
             color: white;
             font-weight: bold;
             width: 115px;
@@ -342,10 +345,16 @@ margin-right: 172px;
             font-size: 14px;
              margin-top: 20px;  
         }
+        .left>button:hover{
+            background-color: #009ddc;
+            border: none;
+            transition: 1s;
+            
+        }
         .intro_cab{
             padding-top: 60px;
             align-items: center;
-            text-align: center;
+            
             padding-bottom: 100px;
         }
         .intro_cab>img{
@@ -365,7 +374,7 @@ margin-right: 172px;
             border: 1px solid #333333;
             width: 240px;
             height: 40px;
-            text-align: center;
+            
             font-size: 17px;
             line-height: 40px;
             border-radius:10% ;
@@ -410,7 +419,7 @@ margin-right: 172px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    
     
 }
 .cardekho>div>li>i{
@@ -429,7 +438,7 @@ margin-right: 20px;
     border: 0.5px solid grey;
     width: 230px;
     align-items: center;
-    text-align: center;
+    
     line-height: 30px;
     font-size: 15px;
 }
@@ -448,7 +457,7 @@ margin-right: 20px;
     border: 0.5px solid grey;
     width: 230px;
     align-items: center;
-    text-align: center;
+    
     line-height: 30px;
     font-size: 15px;
 }
@@ -466,7 +475,7 @@ margin-right: 20px;
     border: 0.5px solid grey;
     width: 230px;
     align-items: center;
-    text-align: center;
+    
     line-height: 30px;
     font-size: 15px;
 }
@@ -487,14 +496,21 @@ margin-right: 20px;
     font-size: 15px;
 }
 .destination_point{
+    padding-bottom: 40px;
 
 }
 .destination_point>h1{
     text-align: center;
+    font-family: "Philosopher", sans-serif;
+    padding-top: 70px;
 }
-.destination_point.car_a1> img{
+.destination_point>figure{
     text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 .a1{
 display: flex;
 padding: 40px;
@@ -504,31 +520,41 @@ padding: 40px;
     height: 400px;
     /* border: 1px solid red; */
     display: flex;
+
 }
 .c1>.c1a1>img{
     width: 262px;
     height: 400px;
+    object-fit: cover;
 }
 .c1>.c1a2>h4{
 text-align: center;
 padding-top: 20px;
+font-size: 37px;
+-webkit-text-stroke: black 0.3px;
+color: white;
 }
 .c1>.c1a2>p{
-    text-align: justify;
+    text-align: center;
     align-items: center;
     padding-top: 60px;
-    padding-left: 10px;
-    margin-right: 10px;
+    padding-left: 37px;
+    margin-right: 37px;
 }
 .c1>.c1a2>button{
     color: white;
     margin-left: 90px;
     width: 122px;
     height: 44px;
-    background-color: black;
+    background-color: #28292E;
     font-size: 16px;
     margin-top: 20px;
 
+}
+.c1>.c1a2>button:hover{
+    background-color: #009ddc;
+    transition: 1s;
+    border: none;
 }
 .c2{
     width: 550px;
@@ -543,31 +569,927 @@ padding-top: 20px;
 .c2>.c2a2>h4{
     text-align: center;
     padding-top: 20px;
+    font-size: 37px;
+    -webkit-text-stroke: black 0.3px;
+    color: white;
 }
 .c2>.c2a2>p{
-        text-align: justify;
+        text-align: center;
         align-items: center;
         padding-top: 60px;
-        padding-left: 10px;
-        margin-right: 10px;
+        padding-left: 38px;
+        margin-right: 29px;
 }
 .c2>.c2a2>button{
     color: white;
     margin-left: 90px;
     width: 122px;
     height: 44px;
-    background-color: black;
+    background-color: #28292E;
     font-size: 16px;
     margin-top: 20px;
+    align-items: center;
 
+}
+.c2>.c2a2>button:hover{
+    background-color: #009ddc;
+    transition: 1s;
+    border: none;
 }
 .a2{
     display: flex;
     padding: 40px;
     padding-top: 10px;
 }
+.ceitified_section{
+ background-image:linear-gradient(112deg,#282828 44%,#01a0de 66%);
+  display: flex;
+  justify-content: space-around;
+}
+.inner{
+    padding: 0 75px;
+    text-align: center;
+}
+
+.inner > h3{
+    font-size: 37px;
+    font-family: "Philosopher", sans-serif;
+    color: white;
+}
+
+.inner > p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 20px;
+}
+
+.ca1{
+    height: 200px;
+    padding: 15px 20px;
+}
+.ca1 > img{
+    width: 100%;
+    height: 100%;
+}
+.choose_us{
+    padding-top: 50px;
+    position: relative;
+}
+.choose_us>h2{
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 30px;
+    line-height: 33px;
+}
+.choose_us> figure{
+    text-align: center;
+    align-items: center;
+    
+}
+.choose_us>p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(79, 79, 79);
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+    
+}
+.choose_us>.audi{
+    width: 50%;
+    position: absolute;
+    left: 245px;
+    top: 410px;
+    padding: 10px;
+    
+}
+.choose_us>.audi>img{
+    width: 555px;
+    height: 280px;
+    
+}
+.coloum{
+   width: 975px;
+   height: 221px;
+   padding: 0px 15px;
+   display: flex;  
+}
+.coloum > div{
+    padding: 0px 75px;
+    text-align: center;
+}
+.coloum > :nth-child(1){
+    padding-top: 35px;
+    padding-right: 10px;
+}  
+.coloum > :nth-child(4){
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.col1{
+    width: 120px;
+    text-align: center;
+   
+}
+
+.col1 > .col1a{
+   padding-left: 12px;
+   width: 120px;
+   text-align: center;
+   transition: transform 2s ease;
+ }
+ .col1 > .col1a img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+ }
+.col1 > .col1a_b{
+    padding-left: 12px;
+    width: 120px;
+    transition: transform 2s ease;
+}
+.col1 > .col1a_b img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+}
+.col1 >.col1ac{
+    margin-left: 840px;
+    margin-top: -318px;
+    text-align: center;
+    transition: transform 2s ease;
+}
+.col1 >.col1ac img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+}
+.col1ac{
+    width: 200px;
+   
+}
+
+.col1 > .col1a_d{
+    margin-left: 847px;
+    margin-top: 4px;
+    text-align: center;
+}
+.col1a_d {
+    width: 200px;
+    text-align: center;
+}
+.choose_us > .audi_a img{
+    /* width: 200px; */
+   position: absolute;
+   top: 455px;
+   left: 141px;
+}
+.discovery > h3{
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgb(51, 51, 51);
+    padding-top: 60px;
+    
+}   
+.discovery > figure{
+    text-align: center;
+    padding-top: 15px;
+}
+.discovery_inner{
+    width: 1515px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 50px;
+    
+    
+}
+.discovery_inner > div > span{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    color: white;
+    -webkit-text-stroke:rgb(51, 51, 51)  0.3px;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: -4365px;
+    left: 69px;
+}
+.discovery_inner > .m1{
+    width: 417px;
+    height: 370px;
+   left: 196px;
+   margin-left: 266px;
+   
+}
+.discovery_inner > .m1 > img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.m2{
+  width: 800px;
+   background-color: rgb(132, 139, 151);
+   border-radius: 10px;
+   padding: 10px;
+   
+}
+.m2 > div{
+  color: white;
+  width: 550px;
+  text-align: justify;
+line-height: 20px;
+}
+.m2 > div > h3{
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 20px;
+
+}
+.m2 > div > p{
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.texi_services{
+    padding-top: 50px;
+    
+    
+}
+.texi_services > h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(51, 51, 51);
+}
+.texi_services > figure{
+    text-align: center;
+    padding-top: 20px;
+}
+.texi_inner{
+    width: 1519px;
+    height: 340px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 20px;
+}
+.texi_inner > .w1{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2023/09/Feature-City-Palace-Udaipur-Rajasthan.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.w1 h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+
+.texi_inner > .w2{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2023/08/junagarh-fort-bikaner-rajasthan-1024x733-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.w2 h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.texi_inner > .w3{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2023/02/Jodhpur-sightseeing-tour.jpg);
+    background-size: cover;
+    position: relative;
+}
+.w3 h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.texi_inner > .w4{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2023/08/placesjaipur2.jpeg);
+    background-size: cover;
+    position: relative;
+}
+.w4 h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.texi_inner > .w5{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    color: white;
+    -webkit-text-stroke:rgb(51, 51, 51)  0.3px;
+    transform: rotate(90deg);
+    text-transform: capitalize;
+    font-family: "Londrina Outline", sans-serif;
+
+}
+.tempo_t{
+    width: 100%;
+    padding-top: 60px;
+}
+.tempo_t > h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(51, 51, 51);
+}
+.tempo_t > figure{
+    text-align: center;
+    padding-top: 20px;
+}
+.tempo_inner{
+    width: calc(100%-20px);
+    
+    height: 340px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.tempo_inner > .r1{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2020/08/north-india-jodhpur.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.r1 > h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.tempo_inner > .r2{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2022/09/Jaipur-Rajasthan.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.r2 > h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+
+}
+.tempo_inner > .r3{
+    background-image: url(https://www.jcrcab.com/wp-content/uploads/2023/09/jaisalmer-fort-rajasthan.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+.r3 > h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.tempo_inner > .r4{
+    background-image: url(	https://www.jcrcab.com/wp-content/uploads/2020/08/mansoon-palace-udaipur-head.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center
+}
+.r4 > h3{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    font-weight: 400;
+    background-color: #28292E;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.tempo_inner > .r5{
+    width: 80%;   
+    height: auto;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-text-stroke:rgb(51, 51, 51)  0.3px;
+    transform: rotate(90deg);
+    text-transform: capitalize;
+    font-family: "Londrina Outline", sans-serif;
+}
+.expirience{
+    padding-top: 40px;
+}
+.expirience > h3{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(51, 51, 51); 
+}
+.expirience > figure{
+    text-align: center;
+    padding-top: 20px;
+}
+.expirience_inn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    padding-top: 60px;
+}
+.expirience_inn > .f1{
+  background-size: cover;
+   background-position: center;
+    height: 460px;
+   padding-left: 20px;
+}
+
+.f1 > h3{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(51, 51, 51);
+}
+.f1 > p{
+text-align: justify;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: rgb(51, 51, 51);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.f1 figure img{
+    background-size: cover;
+    width: 342px;
+}
+.expirience_inn > .f2{
+    background-size: cover;
+     background-position: center;
+      height: 460px;
+     padding-left: 20px;
+  }
+  
+  .f2 > h3{
+     text-align: center;
+     font-size: 17px;
+      font-weight: 600;
+      line-height: 26px;
+      font-family: "Philosopher", sans-serif;
+      color: rgb(51, 51, 51);
+  }
+  .f2 > p{
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(51, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .f2 figure img{
+      background-size: cover;
+      width: 342px;
+      height: 267px;
+  }
+.expirience_inn > .f3{
+  background-size: cover;
+   background-position: center;
+    height: 460px;
+   padding-left: 20px;
+}
+
+.f3 > h3{
+   text-align: center;
+   font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(51, 51, 51);
+}
+.f3 > p{
+text-align: justify;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: rgb(51, 51, 51);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.f3 figure img{
+    background-size: cover;
+    width: 342px;
+    height: 267px;
+}
+.expirience_inn > .f4{
+    background-size: cover;
+     background-position: center;
+      height: 460px;
+     padding-left: 20px;
+  }
+  
+  .f4 > h3{
+     text-align: center;
+     font-size: 17px;
+      font-weight: 600;
+      line-height: 26px;
+      font-family: "Philosopher", sans-serif;
+      color: rgb(51, 51, 51);
+  }
+  .f4 > p{
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(51, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .f4 figure img{
+      background-size: cover;
+      width: 342px;
+      height: 267px;
+  }
+.footer{
+    width: 100%;
+     background-color: #28292E;
+    padding-top: 50px;
+}
+
+.t1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t1>ul{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.t1>ul>li{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
-        
+.t1>ul>li>figure>img{
+    width: 70px;
+}
 
-        
+.t1>ul>li>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.t2{
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.t2>ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.t2>ul>li{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t2>ul>li>figure>img{
+    width: 70px;
+}
+
+.t2>ul>li>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.t3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.t3_inner{
+    width: 75%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t3_inner>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.t3_inner>ul>li{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t3_inner>ul>li>figure>img{
+    width: 90px;
+}
+
+.t3_inner>ul>li>a{
+    color: white;
+}
+
+.images{
+    margin-top: 10px;
+    width: 250px !important;
+    filter: brightness(0) invert(1);
+}
+
+
+.fixed_icon{
+    margin-top: 20px;
+}
+
+.fixed_icon>ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.fixed_icon>ul>li>a{
+    color: white;
+}
+.footer_botom{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+    padding: 10px 0px;
+    background-color: #282828;
+    font-size: 17px;
+    color: white;
+}
+
+.footer_botom>p>span{
+    color: #009ddc;
+}
+.whatsapp_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    width: 150px;
+}
+.whatsapp_btn>button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+}
+.whatsapp_btn>button:hover{
+    background: linear-gradient(45deg, #759e79, #c42929, #268a84);
+}
+
+.whatsapp_btn>button>a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.icons_whatsapp{
+    margin-right: 10px;
+}
+.our_partner{
+    width: 100%;
+    height: 260px;
+    border: 1px solid red;
+    background-color: #E7F8FF;
+}
+h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+     font-family: "Philosopher", sans-serif;
+     padding-top: 40px;
+}
+.our_iner{
+    width: 1170px;
+    margin: auto;
+    height: 100px;
+   padding-top: 30px;
+    display: flex;
+}
+.our_iner > li{
+    width: 170px;
+    height: 97px;
+    margin: 0px 10px;
+    background-color: white;
+    text-align: center;
+   border-radius: 3px;
+}
+.our_iner > li img{
+    width: 158px;
+    height: 54px;
+    margin-top: 27px;
+}
+.flag{
+    width: 100%;
+    height: 110px;
+    border: 1px solid red ;
+    background-image: url(https://www.jcrcab.com/wp-content/themes/JCR_CAB/images/g20-bg.jpg);
+    background-position: bottom;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    display: flex;
+}
+
+.flag .g20 img{
+   width: 200px;
+   height: 110px;
+   border: 1px solid rebeccapurple;
+}
+.flag > p{
+font-size: 38px;
+line-height: 54px;
+font-weight: 700;
+color: rgb(51, 51, 51);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.coloum >.raw-1 img{
+    transition: transform 2s ease;
+}
+ .coloum >.raw-1 img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+ }
+ .coloum >.raw-2 img{
+    transition: transform 2s ease;
+}
+ .coloum >.raw-2 img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+ }
+ .coloum >.raw-3 img{
+    transition: transform 2s ease;
+}
+ .coloum >.raw-3 img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+ }
+ .coloum >.raw-4 img{
+    transition: transform 2s ease;
+}
+ .coloum >.raw-4 img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    transform-origin: center;
+ }
+ .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: white;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; 
+    height: 400px;
+    border: 2px dotted grey;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content h1{
+    -webkit-text-stroke:rgb(51, 51, 51)  0.3px;
+    color: white; 
+    font-size: 70px; 
+    text-align: center;
+}
+.modal-content p{
+    border: 1px solid light rgb(173, 74, 74);
+    font-style: italic;
+    font-size: 20px;
+    color: #888;
+    padding: 10px;
+}
+.modal-content h4{
+    position: relative;
+    top: 120px;
+    left: 290px;
+}
+.modal-content :last-child{
+    position: relative;
+    top: 60px;
+    left: 00px;
+    color: green;
+    
+}
+.modal-content :last-child:hover{
+    color: red;
+}
+
+
